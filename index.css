@@ -1,0 +1,88 @@
+.type {
+    font-family: 'Allura', cursive;
+    margin-left: 50px;
+}
+#par{
+    font-family: 'Allura', cursive;
+} 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #83010d;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: #fefac0;
+    text-align: center;
+    padding: 16px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.img {
+    height: 677px;
+    width : 1504px;
+}
+
+
+
+.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+#img1 {
+    height: 225px;
+    width: 364px;
+}
+
+#img2 {
+    height: 225px;
+    width: 364px;
+}
+
+.responsive {
+    padding: 0 600px;
+    float: left;
+    width: 24.99999%;
+}
+
+.fblogo {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+}
+
+#images {
+    text-align: center;
+}
+
+
+.firstrow {
+    position: relative;
+
+    margin-left: 200px;
+}
+
+
+.secondrow {
+    position: relative;
+    margin-left: 200px;
+}
+#article {
+    margin-left:125px;
+}
+
+    
