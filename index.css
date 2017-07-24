@@ -89,6 +89,7 @@ li a:hover {
     margin-left:125px;
 }
 .video {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
     
