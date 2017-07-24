@@ -70,14 +70,13 @@ li a:hover {
 }
 
 
-.firstrow {
+.lineone {
     position: relative;
-
     margin-left: 200px;
 }
 
 
-.secondrow {
+.linetwo {
     position: relative;
     margin-left: 200px;
 }
