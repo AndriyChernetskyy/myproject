@@ -73,17 +73,22 @@ li a:hover {
 #images {
     text-align: center;
 }
-
+#picture{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .lineone {
     position: relative;
-    margin-left: 200px;
+    margin: 0 auto;
 }
 
 
 .linetwo {
     position: relative;
-    margin-left: 200px;
+    margin: 0 auto;
+    
 }
 #article {
     margin-left:125px;
@@ -92,4 +97,60 @@ li a:hover {
     display: flex;
     justify-content: center;
 }
-    
+
+
+.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+#img1 {
+    height: 225px;
+    width: 364px;
+}
+
+#img2 {
+    height: 225px;
+    width: 364px;
+}
+
+.responsive {
+    padding: 0 600px;
+    float: left;
+    width: 24.99999%;
+}
+
+.fblogo {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+}
+
+#images {
+    text-align: center;
+}
+
+
+.lineone {
+    position: relative;
+    margin: 0 auto;
+}
+
+
+.linetwo {
+    position: relative;
+    margin: 0 auto;
+}
+#article {
+    margin-left:125px;
+}
+.section, .contact {
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
