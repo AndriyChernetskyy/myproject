@@ -72,7 +72,7 @@
                 </figure>
         </section>
         <hr>
-        <form action="https://formspree.io/andrewusa921@gmail.com" name="myForm" method="POST">
+        
             <section id=contact>
                 <div>
                 <h4>Contact Me</h4>
@@ -89,6 +89,7 @@
                 </div>
                 </div>
             </section>
+            <form>
             <fieldset>
                 <label for="c-name">
                     Your Name
@@ -105,12 +106,18 @@
             <fieldset>
                 <label>
                     Write text here
-                        <textarea name="message" rows="10" cols="30" required></textarea>
+                        <textarea id="comment" name="message" rows="10" cols="30" required></textarea>
                 </label>
             </fieldset>
             <input type="submit">
             <input type="reset">
        
         </form>
+        <div id="form-result"></div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script src="js/form.js"></script>
     </body>
 </html>
