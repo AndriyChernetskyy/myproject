@@ -20,5 +20,5 @@
 
     
 })
-setTimeout("window.location.href = 'page.html'", 5000);
+setTimeout("window.location.href = 'page.html'", 2500);
 
