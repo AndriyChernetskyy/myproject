@@ -48,7 +48,8 @@ function sendForm(e) {
         data: {
             name: $('#c-name').val(),
             email: $('#c-mail').val(),
-            comment: $('#comment').val()
+            mobile: $('#c-telephone').val(),
+            comment: $('#description').val()
         },
         dataType: "json"
     })
