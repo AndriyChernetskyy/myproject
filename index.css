@@ -104,11 +104,6 @@ h1, h2, h3, h4, h5, h6 {
     background: url(img/back1.jpg);
 }
 
-@media screen and (min-width: 480px) {
-    #video {
-        background: none;
-    }
-}
 
 .newone {
     display: flex;
@@ -140,11 +135,6 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url("img/back.jpg");
 }
 
-@media screen and (min-width: 480px) {
-    .row {
-        background: none;
-    }
-}
 
 #picture {
     display: flex;
