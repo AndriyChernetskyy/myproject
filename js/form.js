@@ -1,4 +1,4 @@
-Highcharts.chart('contain', {
+/*Highcharts.chart('contain', {
     chart: {
         type: 'line'
     },
@@ -33,7 +33,7 @@ Highcharts.chart('contain', {
     }]
 });
 
-
+*/
 
 $(function() {
     $('form input[type=submit]').click(sendForm);
