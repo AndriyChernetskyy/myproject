@@ -13,10 +13,16 @@ body{
     justify-content: center;
 }
 .container{
+    display: flex;
+    justify-content: center;
     max-width: 100px;
     margin: 0 auto;
-    text-align: center;
 }
+.container2{
+    display: flex;
+    justify-content: center;
+}
+
 h1{
     color:#FFFFFF;
     font: 900 96px 'Mr De Haviland', cursive;

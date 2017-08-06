@@ -134,6 +134,11 @@ h1, h2, h3, h4, h5, h6 {
 .row {
     background-image: url("img/back.jpg");
 }
+@media screen and (max-width: 1000px){
+    .row{
+        background-image: none;
+    }
+}
 
 
 #picture {
@@ -424,15 +429,17 @@ textarea.form-control {
     position: relative;
 }
 
-@media (min-width: 768px){
-.col-sm-6 {
-background: url("img/back.jpg");
-}
-}
-@media (min-width: 768px)
-{
-.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
-background: url("img/back.jpg");}
-}
 
+.parallax {
+    /* The image used */
+    background-image: url("http://www.featurepics.com/StockImage/20070222/hippie-bus-stock-photo-231511.jpg");
 
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
