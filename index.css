@@ -221,7 +221,7 @@ nav {
     color: #fefac0;
 }
 
-.navigation a:hover {
+.social-links > a:hover {
     background-color: #111;
 }
 
@@ -367,6 +367,11 @@ textarea.form-control {
     /* margin-top: px;*/
 }
 
+
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: relative;}
+
+
 .submit {
     font-size: 1.1em;
     float: right;
@@ -387,16 +392,40 @@ textarea.form-control {
     flex-wrap: wrap;
 }
 
+.navbar-default .navbar-nav>li>a {
+    color: #fefac0;
+    
+}
+
+.navbar-nav {
+    float: center;
+}
+
+
+
+
 .social-links>a {
+    color: #fefac0;
     display: block;
     background: #5F9EA0;
     border: 2px solid #5F9EA0;
     size: 50px;
     line-height: 50px;
     width: 50px;
-    color: white;
     border-radius: 50%;
     font-size: 28px;
     margin: 20px;
     position: relative;
 }
+
+@media (min-width: 768px){
+.col-sm-6 {
+background: url("img/back.jpg");
+}
+}
+@media (min-width: 768px)
+{
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+background: url("img/back.jpg");}
+}
+
