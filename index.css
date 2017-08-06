@@ -382,8 +382,8 @@ textarea.form-control {
     font-size: 1.1em;
     float: right;
     width: 150px;
-    background-color: transparent;
-    color: #fff;
+    background-color: green;
+    color: white;
 }
 
 .section-contact {

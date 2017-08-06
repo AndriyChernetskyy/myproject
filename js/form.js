@@ -34,6 +34,17 @@
 });
 
 */
+document.getElementById('submit').addEventListener('click', sendForm);
+
+function sendForm(e) {
+	e.preventDefault();
+    const form = document.getElementById('form');
+    if (form.checkValidity()) {
+    	alert('Form is OK')    
+    } else {
+    	alert('Form is not OK');
+    }   
+}
 
 $(function() {
     $('form input[type=submit]').click(sendForm);
