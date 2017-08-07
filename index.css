@@ -101,8 +101,8 @@ h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-.videquestion{
-     font-size: 35px;
+.videquestion {
+    font-size: 35px;
     font-family: 'Allura', cursive;
     text-align: center;
 }
@@ -110,7 +110,6 @@ h2, h3, h4, h5, h6 {
 #video {
     background: url(img/back1.jpg);
 }
-
 
 .newone {
     display: flex;
@@ -138,13 +137,11 @@ h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-
-@media screen and (max-width: 1000px){
-    .row{
+@media screen and (max-width: 1000px) {
+    .row {
         background-image: none;
     }
 }
-
 
 #picture {
     display: flex;
@@ -353,11 +350,10 @@ nav {
     width: 50%;
 }
 
-
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
     .contact-section .col-md-6 {
-    width: 100%;
-}
+        width: 100%;
+    }
 }
 
 .form-line {
@@ -383,10 +379,9 @@ textarea.form-control {
     height: 135px;
 }
 
-
 .navbar-fixed-bottom, .navbar-fixed-top {
-    position: relative;}
-
+    position: relative;
+}
 
 .submit {
     font-size: 1.1em;
@@ -410,15 +405,11 @@ textarea.form-control {
 
 .navbar-default .navbar-nav>li>a {
     color: #fefac0;
-    
 }
 
 .navbar-nav {
     float: center;
 }
-
-
-
 
 .social-links>a {
     color: #fefac0;
@@ -434,16 +425,16 @@ textarea.form-control {
     position: relative;
 }
 
-
 .parallax {
     background-image: url("img/parallax.jpg");
-    min-height: 500px; 
+    min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.contact-section{
+.contact-section {
     margin-bottom: 50px;
 }
+
