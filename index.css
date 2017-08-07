@@ -88,14 +88,21 @@ span {
     }
 }
 
-.type {
-    font-family: 'Allura', cursive;
+h1, .type {
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: #d9d9d9;
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
     font-size: 35px;
+    font-family: 'Allura', cursive;
+    text-align: center;
+}
+
+.videquestion{
+     font-size: 35px;
     font-family: 'Allura', cursive;
     text-align: center;
 }
@@ -131,9 +138,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-.row {
-    background-image: url("img/back.jpg");
-}
+
 @media screen and (max-width: 1000px){
     .row{
         background-image: none;
@@ -431,18 +436,14 @@ textarea.form-control {
 
 
 .parallax {
-    /* The image used */
-    background-image: url("http://www.featurepics.com/StockImage/20070222/hippie-bus-stock-photo-231511.jpg");
-
-    /* Set a specific height */
+    background-image: url("img/parallax.jpg");
     min-height: 500px; 
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .contact-section{
     margin-bottom: 50px;
 }
